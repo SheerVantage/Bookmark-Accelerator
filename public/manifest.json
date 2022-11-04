@@ -1,0 +1,10 @@
+{
+    "name": "Bookmark Accelerator",
+    "version": "1.0",
+    "description": "Accelerate your bookmark management",
+    "permissions": [ "bookmarks", "activeTab" ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 3
+}

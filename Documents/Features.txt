@@ -1,0 +1,16 @@
+
+- Press ctrl + shift + b
+	- the archive chooser will pop over
+	- option to add new archive
+	- search for archives / bookmarks / within site, within category ( earn, learn, fun, burn ) - with filters
+
+- Hierarchical Tag cloud
+	- associate any number of tags to a bookmark or folder/archive
+	- view/list/filter/search/navigate in list view or treeview or tree grid
+
+- MRU of archives/folders
+
+- store notes against archives and bookmarks
+
+- assign importance or priority to bookmarks or folders
+
