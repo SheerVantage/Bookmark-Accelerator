@@ -1,9 +1,9 @@
 <script>
-    export let loadData
-    import {notifications} from './lib/notification.js'
+    export let loadData, caption
+    // import {notifications} from './lib/notification.js'
     function refreshData(){
         loadData()
-        notifications.success('😊 Refresh 😊', 1000)
+        // notifications.success('😊 Refresh 😊', 1000)
     }
 </script>
 
@@ -12,7 +12,7 @@
     
         <a href="a" class="flex title-font font-medium items-center text-gray-900 ">
             <img alt="a" class="w-6 h-6" src="https://img.icons8.com/external-glyph-on-circles-amoghdesign/48/000000/external-check-education-vol-01-glyph-on-circles-amoghdesign.png">
-            <span class="ml-3 text-xl" title = "Bookmark Accelerator">BA</span>
+            <span class="ml-3 text-xl" title = "Bookmark Accelerator">{caption}</span>
         </a>
 
         <span class = "ml-auto"><slot></slot></span>

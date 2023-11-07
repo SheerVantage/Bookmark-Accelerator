@@ -1,6 +1,6 @@
 <div class="input-icon-wrap">
-    <input :type = {type || 'text'} class="input-with-icon" id="form-name" on:keyup={({ target: { value } }) => debounce(value)}/>
-    <span class="input-icon">🔍 </span>
+    <input :type = {type || 'text'} class="input-with-icon p-1" id="form-name" on:keyup={({ target: { value } }) => debounce(value)} placeholder={value} />
+    <!-- <span class="input-icon">🔍 </span> -->
 </div>  	
   
 <script>

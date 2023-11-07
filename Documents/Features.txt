@@ -12,5 +12,6 @@
 
 - store notes against archives and bookmarks
 
-- assign importance or priority to bookmarks or folders
+- assign importance or priority and state/status to bookmarks or folders
 
+- Set description of bookmarks

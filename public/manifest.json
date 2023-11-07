@@ -2,7 +2,12 @@
     "name": "Bookmark Accelerator",
     "version": "1.0",
     "description": "Accelerate your bookmark management",
-    "permissions": [ "bookmarks", "activeTab" ],
+    "permissions": [
+        "bookmarks",
+        "activeTab",
+        "storage",
+        "notifications"
+    ],
     "action": {
         "default_popup": "index.html"
     },
